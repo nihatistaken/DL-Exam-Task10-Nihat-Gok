@@ -1,47 +1,47 @@
-# Task [X]: [Task Name]
+# Task 10: Traffic
 
-**Student:** [Your Name]  
-**ID:** [Student ID]  
-**Seed:** [Your Assigned Seed]
+**Student:** Nihat Gok
+**ID:** S212
+**Seed:** 20240212
 
 ## Presentation
 [View Presentation Slides](https://drive.google.com/your-link-here)
 
 ## Dataset
-- **Name:** [Dataset name]
-- **Classes:** [Number]
-- **Training samples:** [Number]
-- **Test samples:** [Number]
+- **Name:** GTSRB (German Traffic Sign Recognition)
+- **Classes:** 10 (Speed limit (30km/h), Priority road, Yield, Stop, No entry, General caution, Road work, Turn right ahead,Ahead only, Keep right)
+- **Training samples:** 10,140
+- **Test samples:** 4,920
 
 ## Model Architecture
-- **Type:** [CNN/ResNet18/MobileNetV2]
-- **Convolutional layers:** [Number]
-- **Fully connected layers:** [Number]
-- **Total parameters:** [Number]
+- **Type:** MobileNetV2
+- **Convolutional layers:** 53
+- **Fully connected layers:** 1
+- **Total parameters:** 2,236,682
 
 ## Training Comparison
 
 ### Version 1
-- **Learning rate:** [value]
-- **Batch size:** [value]
-- **Optimizer:** [name]
-- **Test accuracy:** [X.XX]%
+- **Learning rate:** 0.0001
+- **Batch size:** 32
+- **Optimizer:** Adam
+- **Test accuracy:** 90.9%
 
 ### Version 2
-- **Learning rate:** [value]
-- **Batch size:** [value]
-- **Optimizer:** [name]
-- **Test accuracy:** [X.XX]%
+- **Learning rate:** 0.0001
+- **Batch size:** 64
+- **Optimizer:** Adam
+- **Test accuracy:** 90.2%
 
 ### Best Result
-- **Best version:** Version [1/2]
-- **Final test accuracy:** [X.XX]%
-- **Target accuracy:** [X.XX]%
-- **Status:** ✓ Achieved / ✗ Below target
+- **Best version:** Version 1
+- **Final test accuracy:** 90.93%
+- **Target accuracy:** 88.0%
+- **Status:** ✓ Achieved
 
 ## Analysis
-- **Best performing class:** [class name]
-- **Worst performing class:** [class name]
+- **Best performing class:** Speed limit (30km/h)
+- **Worst performing class:** General caution
 - **Key observations:** [2-3 sentences about what you learned]
 
 ## Files
