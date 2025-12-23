@@ -1,4 +1,4 @@
-# Task 10: Traffic
+# Task 10: Traffic Sign Recognition
 
 **Student:** Nihat Gok
 **ID:** S212
