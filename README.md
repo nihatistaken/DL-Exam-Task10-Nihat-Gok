@@ -25,13 +25,13 @@
 - **Learning rate:** 0.0001
 - **Batch size:** 32
 - **Optimizer:** Adam
-- **Test accuracy:** 90.9%
+- **Test accuracy:** 90.93%
 
 ### Version 2
 - **Learning rate:** 0.0001
 - **Batch size:** 64
 - **Optimizer:** Adam
-- **Test accuracy:** 90.2%
+- **Test accuracy:** 90.16%
 
 ### Best Result
 - **Best version:** Version 1
