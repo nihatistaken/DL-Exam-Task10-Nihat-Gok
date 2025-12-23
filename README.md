@@ -41,8 +41,8 @@
 
 ## Analysis
 - **Best performing class:** Speed limit (30km/h)
-- **Worst performing class:** General caution
-- **Key observations:** [2-3 sentences about what you learned]
+- **Worst performing class:** Road work
+- **Key observations:** By comparing version 1 and version 2, I learned how changes in learning rate and the number of epochs directly affect model performance and stability. A higher learning rate trained faster but was less stable, while a lower learning rate with more epochs gave more consistent results. This comparison helped me understand how tuning hyperparameters improves accuracy and reduces overfitting.
 
 ## Files
 - `notebook.ipynb`: Complete implementation with both training runs
