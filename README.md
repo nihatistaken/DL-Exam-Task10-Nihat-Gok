@@ -5,7 +5,7 @@
 **Seed:** 20240212
 
 ## Presentation
-[View Presentation Slides](https://drive.google.com/your-link-here)
+[View Presentation Slides](https://docs.google.com/presentation/d/15LHg1FTgb6jWmhIzhkxrFz1W-wjc5aC1/edit?usp=share_link&ouid=116418790086252471977&rtpof=true&sd=true)
 
 ## Dataset
 - **Name:** GTSRB (German Traffic Sign Recognition)
@@ -28,7 +28,7 @@
 - **Test accuracy:** 90.93%
 
 ### Version 2
-- **Learning rate:** 0.0001
+- **Learning rate:** 0.00001
 - **Batch size:** 64
 - **Optimizer:** Adam
 - **Test accuracy:** 90.16%
